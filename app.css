@@ -24,7 +24,7 @@ body {
        "kira"
     ;
     align-items: stretch;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 .box {
     max-width: 90%;
@@ -149,7 +149,7 @@ img {
 /* ATTRIBUTION */
 .attribution {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 /* MEDIA QUERIES */
