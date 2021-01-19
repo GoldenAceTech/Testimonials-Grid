@@ -4,10 +4,15 @@ body {
     background-color: hsl(210, 46%, 95%);
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* GRID CONTAINER */
-#wrapper {
+.container {
     width: 90%;
     margin: 7em auto;
     display: grid;
@@ -149,7 +154,7 @@ img {
 
 /* MEDIA QUERIES */
 @media (min-width: 900px) {
-    #wrapper {
+    .container {
       grid-template-areas:
         "daniel daniel"
         "jonathan jeanette"
@@ -160,7 +165,7 @@ img {
   }
 
   @media (min-width: 1200px) {
-    #wrapper {
+    .container {
       grid-template-areas:
         "daniel daniel  jonathan"
         "jeanette    patrick patrick"
@@ -171,7 +176,7 @@ img {
 
 
   @media (min-width: 1440px) {
-    #wrapper {
+    .container {
       grid-template-areas:
         "daniel daniel jonathan kira"
         "jeanette    patrick  patrick kira"
